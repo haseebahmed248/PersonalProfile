@@ -10,6 +10,8 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <script
       src="https://kit.fontawesome.com/ad225afd32.js"
       crossorigin="anonymous"
@@ -63,7 +65,7 @@
     <section class="Achevements__Section" id="achev">
       <h3>My Achievements</h3>
       <div class="items_ach">
-        <div class="ach_border">
+        <div class="ach_border" data-aos="fade-in">
           <div class="Ach__Cards">
             <div class="Card1">
               <h2 class="quote">“</h2>
@@ -81,7 +83,7 @@
           </div>
         </div>
 
-        <div class="ach_border">
+        <div class="ach_border" data-aos="fade-in">
           <div class="Ach__Cards">
             <div class="Card1">
               <h2 class="quote">“</h2>
@@ -98,7 +100,7 @@
             </div>
           </div>
         </div>
-        <div class="ach_border">
+        <div class="ach_border" data-aos="fade-in">
           <div class="Ach__Cards">
             <div class="Card1">
               <h2 class="quote">“</h2>
@@ -122,7 +124,7 @@
       <h2>Our Services</h2>
 
       <div class="service_cards">
-        <div class="WebCard cards_service">
+        <div class="WebCard cards_service" data-aos="fade-right">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
             neque? Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -132,7 +134,7 @@
           </p>
           <button class="services_btn">Read More</button>
         </div>
-        <div class="MobileCard cards_service">
+        <div class="MobileCard cards_service" data-aos="fade-in">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
             neque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
@@ -142,7 +144,7 @@
           </p>
           <button class="services_btn">Read More</button>
         </div>
-        <div class="DataBaseCard cards_service">
+        <div class="DataBaseCard cards_service" data-aos="fade-left">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
             neque? Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -160,7 +162,7 @@
       <h3 class="project_headers">Checkout a few of my works</h3>
 
       <div class="Projects_cards">
-        <div class="cards card__1">
+        <div class="cards card__1" data-aos="fade-left">
           <div class="cardImg">
             <img src="../Images/one.jpeg" alt="" srcset="" />
           </div>
@@ -176,7 +178,7 @@
           </div>
         </div>
 
-        <div class="cards">
+        <div class="cards" data-aos="fade-right">
           <div class="cardData">
             <p class="dim">ILLUSTRATION</p>
             <h4>Lorem ipsum dolor sit. Vero doloribu repellat.</h4>
@@ -198,7 +200,7 @@
       <h2 class="eduTitle">My Education</h2>
       <div class="card-outer">
         <div class="card-container">
-          <div class="card_edu">
+          <div class="card_edu" data-aos="fade-up">
             <div class="front">
               <h2>School</h2>
               <img src="../Images/one.jpeg" alt="" />
@@ -219,7 +221,7 @@
             </div>
           </div>
 
-          <div class="card_edu">
+          <div class="card_edu" data-aos="fade-up">
             <div class="front">
               <h2>Collage</h2>
               <img src="../Images/one.jpeg" alt="" />
@@ -267,6 +269,7 @@
             class="form_a"
             placeholder="Your Name"
             required
+            data-aos="fade-right"
           /><br />
           <input
             type="email"
@@ -274,6 +277,7 @@
             class="form_a"
             placeholder="Your Email"
             required
+            data-aos="fade-right"
           /><br />
           <input
             type="text"
@@ -281,15 +285,22 @@
             class="form_a"
             placeholder="Subject"
             required
+            data-aos="fade-right"
           /><br />
           <textarea
             id="textArea"
             cols="30"
             rows="10"
             placeholder="Message"
+            data-aos="fade-right"
           ></textarea
           ><br />
-          <input type="submit" value="Send Message" id="submitBtn" />
+          <input
+            type="submit"
+            value="Send Message"
+            id="submitBtn"
+            data-aos="fade-right"
+          />
         </form>
       </div>
     </section>
@@ -303,6 +314,7 @@
           class="mail"
           placeholder="Subscribe"
           required
+          data-aos="fade-right"
         /><br />
         <input type="button" value="Subscribe" class="subBtn" />
       </form>
@@ -327,7 +339,7 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="anime.min.js"></script>
 
     <script src="index.js"></script>
