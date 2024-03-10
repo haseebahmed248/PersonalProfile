@@ -31,3 +31,44 @@ anime.timeline({loop: true})
     delay: 1000
   });
 
+
+  
+  //TIME line
+  
+  var cards = document.querySelectorAll(".card_edu");
+  var playing = false;
+  
+  cards.forEach(function(card) {
+    console.log("Clicked")
+    card.addEventListener("click", function() {
+      if (playing) return;
+      playing = true;
+  
+      anime({
+        targets: card,
+        rotateY: { value: '+=180', delay: 200 },
+        easing: "easeInOutSine",
+        duration: 400,
+        complete: function(anim) {
+          playing = false;
+        }
+      });
+    });
+    card.addEventListener("mouseover", function() {
+      if (playing) return;
+      playing = true;
+  
+      anime({
+        targets: card,
+        rotateY: { value: '+=180', delay: 200 },
+        easing: "easeInOutSine",
+        duration: 400,
+        complete: function(anim) {
+          playing = false;
+        }
+      });
+    });
+  });
+  
+  
+

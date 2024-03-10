@@ -40,7 +40,7 @@ nav {
     transition: 0.2s;
   }
   
-  a::after {
+  nav a::after {
     content: "";
     position: absolute;
     left: 0;
@@ -50,10 +50,10 @@ nav {
     background-color: yellowgreen;
     transition: 0.5s linear;
   }
-  a:hover {
+  nav a:hover {
     color: #00fe77;
   }
-  a:hover:after {
+  nav a:hover:after {
     width: 100%;
   }
   .info{
@@ -418,3 +418,307 @@ nav {
     transition: 0.3s linear;
     background-color: #272727;
  }
+
+ /*-----------------------------------PROJECTS SECTION-------------------------------*/
+ .Project_Showcase_Sect{
+  width: 100%;
+  height: 150vh;
+  background-color: #000;
+  color: white;
+ }
+ .cards{
+  display: flex;
+  width: 70%;
+  margin-top: 5%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25%;
+ }
+ .project_headers{
+  text-align: center;
+ }
+ .h_header{
+  font-weight: normal;
+  font-size: 18px;
+  color: rgb(180, 179, 179);
+  letter-spacing: 5px;
+ }
+ .card__1{
+  margin-left: 23%;
+ }
+ .data_1{
+  margin-left: -3%
+ }
+ .cardImg{
+  width: 50%;
+ }
+ .cardImg img{
+    width: 70%;
+    height: 60vh;
+ }
+ .cardData{
+  margin-top:5%;
+  width: 20%;
+  margin-right: 10%;
+ }
+ .cardData h4{
+  font-weight: normal;
+  font-size: 30px;
+  margin-bottom: 15%;
+ }
+ .dim{
+  color: rgb(187, 187, 187);
+  letter-spacing: 5px;
+ }
+ .dim1{
+  color: rgb(187, 187, 187);
+  word-spacing: 5px;
+  margin-bottom: 6%;
+ }
+ .cardData a{
+  text-decoration: none;
+  color: rgb(0, 152, 253);
+  font-size: 20px;
+ }
+
+ /*--------------------EDUCATION-----------------------------*/
+ .Education_sect{
+  display: block;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  color: white;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  text-align: center;
+}
+.eduTitle{
+  margin-top: 5%;
+  letter-spacing: 5px;
+  font-weight: 130;
+  color: #00fe77;
+}
+
+.card-outer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1000px;
+  position: relative;
+  top: -10%;
+}
+.card-container {
+  width: 80%;
+  height: 50%;
+  border-radius: 10px;
+  perspective: 1400px;
+  display: flex;
+}
+.card_edu {
+  position: relative;
+  height: 100%;
+  border-radius: 10px;
+  width: 100%;
+  transform-style: preserve-3d;
+  margin-left: 10%;
+  cursor: pointer;
+}
+.front, .back {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  text-align: center;
+  justify-content: center;
+  backface-visibility: hidden;
+}
+.front {
+  color: #fff;
+  border: 1px solid #00fe77;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 1px 1px 8px aqua;
+}
+.back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotateY(180deg);
+  border: 1px solid #00fe77;
+  color: #fff;
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+}
+.front > h2 {
+  font-weight: 190;
+  letter-spacing: 10px;
+  font-size: 35px;
+  margin-left: 6%;
+  margin-top: 4%;
+}
+.back h2{
+  font-weight: 190;
+  letter-spacing: 10px;
+  font-size: 35px;
+  margin-left: 6%;
+  margin-top: 6%;
+}
+.back p{
+  font-weight: 150;
+  position: absolute;
+  top: 20%;
+  width: 70%;
+}
+.front img{
+  position: absolute;
+  left: 16%;
+  top: 17%;
+  width: 70%;
+  height: 70%;
+}
+.front h4{
+  position: absolute;
+  bottom: 10;
+  color: #00fe77;
+  font-weight: 250;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+/*--------------------------Contact US------------------*/
+.contactus_sect{
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  color: white;
+}
+.contactus_sect h2{
+  font-weight: 250;
+  letter-spacing: 4px;
+  margin-left: 10%;
+  margin-bottom: 3%;
+  padding-top: 5%;
+}
+.contactInfo{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 10%;
+}
+.contactInfo span{
+  color: #00fe77;
+}
+.contactInfo h4, .contactInfo h3{
+  font-weight: 200;
+}
+form{
+  margin-left: 37%;
+  margin-top: 5%;
+}
+.form_a{
+  color: white;
+  width: 40%;
+  margin: 1%;
+  height: 5%;
+  background-color: #000;
+  border: 1px solid rgba(128, 128, 128, 0.616);
+  padding: 1%;
+}
+#textArea{
+  color: white;
+  margin: 1%;
+  background-color: #000;
+  border: 1px solid rgba(128, 128, 128, 0.616);
+  padding: 1%;
+  width: 40%;
+}
+#submitBtn{
+  width: 15%;
+  height:5%;
+  margin: 1%;
+  background-color: #000;
+  color: white;
+  border: 1px solid #00fe77;
+}
+#submitBtn:hover{
+  border-color: white;
+  box-shadow: 1px 1px 10px #00fe77;
+  transition: 0.5s;
+  color: #00fe77;
+}
+
+/*-------------------------SUBSCRIPTION Section--------------------------*/
+.subscription{
+  background-color: #000;
+  width: 100%;
+  height: 40vh;
+  color: white;
+}
+.subscription h2{
+  font-weight: 250;
+  letter-spacing: 4px;
+  text-align: center;
+}
+.subscription h4{
+  font-weight: 180;
+  letter-spacing: 4px;
+  text-align: center;
+}
+.mail{
+  width: 20%;
+  margin: 2%;
+  margin-left: 10%;
+  color: white;
+  background-color: #000;
+  border: 1px solid rgba(128, 128, 128, 0.616);
+  padding: 1%;
+}
+.subBtn{
+  margin: 2%;
+  margin-left: 15%;
+  padding: 1%;
+  background-color: rgba(236, 26, 43, 0.767);
+  color: white;
+  border: none;
+  width: 12%;
+  border-radius: 10px;
+  font-size: 20px;
+}
+/*-------------------------------Footer----------------------------*/
+footer{
+  background-color: #000;
+  height: 18vh;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contact h2{
+  font-weight: 250;
+  letter-spacing: 5px;
+}
+.contact h4{
+  font-weight: 150;
+  letter-spacing: 5px;
+}
+footer p{
+  font-weight: 150;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+}
+.logos a{
+  color: white;
+  margin: 1%;
+}
+.logoes{
+  margin-bottom: 2%;
+}
+.contact{
+  margin-top: 2%;
+}
