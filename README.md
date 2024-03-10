@@ -1,9 +1,12 @@
-# Personal Profile
+# Personal Profile Template
 
-Short description or tagline for your project.
+A template for creating a personal portfolio website.
+
+## Live Demo
+
+Visit the [live demo](https://haseebahmed248.github.io/PersonalProfile/PrimaryVariation/) to see the template in action.
 
 ## Table of Contents
-
 - [Introduction](#introduction)
 - [Features](#features)
 - [Usage](#usage)
@@ -13,28 +16,36 @@ Short description or tagline for your project.
 
 ## Introduction
 
-Provide a brief introduction about your project. Mention its purpose, key features, and anything else important.
+This template provides a simple and elegant solution for creating a personal portfolio website. Customize it to showcase your achievements, education, services, and more.
 
 ## Features
 
-List the key features of your project, e.g., functionalities, technologies used, etc.
+- Responsive design
+- Achievements section
+- Services showcase
+- Project portfolio
+- Education history
+- Contact information and form
+- Subscription section
 
 ## Usage
 
-Provide instructions on how to use your project. Include any setup steps or prerequisites.
+1. Clone this repository.
+2. Customize the content in the HTML files to match your information.
+3. Personalize the styles in the CSS file to suit your preferences.
 
 ## Installation
 
-If your project requires installation steps, provide clear instructions here.
+No installation required. Simply clone the repository and customize the template.
 
 ## Contributing
 
-If you want others to contribute to your project, outline the contribution guidelines.
+Feel free to contribute by reporting issues, suggesting improvements, or submitting pull requests.
 
 ## License
 
-Specify the license under which your project is distributed.
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-**Note:** Customize the sections and content based on your project. You can include additional sections like "Acknowledgements," "Demo," or "FAQ" as needed.
+**Note:** Make sure to replace the content inside brackets with your actual information and customize sections as needed.
