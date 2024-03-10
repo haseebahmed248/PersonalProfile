@@ -482,7 +482,7 @@ nav {
  }
 
  /*--------------------EDUCATION-----------------------------*/
- .Education_sect{
+ .Education_sect {
   display: block;
   width: 100%;
   height: 100vh;
@@ -494,7 +494,8 @@ nav {
   overflow: hidden;
   text-align: center;
 }
-.eduTitle{
+
+.eduTitle {
   margin-top: 5%;
   letter-spacing: 5px;
   font-weight: 130;
@@ -509,6 +510,7 @@ nav {
   position: relative;
   top: -10%;
 }
+
 .card-container {
   width: 80%;
   height: 50%;
@@ -516,6 +518,7 @@ nav {
   perspective: 1400px;
   display: flex;
 }
+
 .card_edu {
   position: relative;
   height: 100%;
@@ -524,16 +527,21 @@ nav {
   transform-style: preserve-3d;
   margin-left: 10%;
   cursor: pointer;
+  backface-visibility: hidden; 
+transition: transform 0.4s ease-in-out; 
 }
-.front, .back {
+
+.front,
+.back {
   display: flex;
   width: 100%;
   height: 100%;
   border-radius: 10px;
   text-align: center;
   justify-content: center;
-  backface-visibility: hidden;
+  backface-visibility: hidden; /* Hide the back face of the card */
 }
+
 .front {
   color: #fff;
   border: 1px solid #00fe77;
@@ -541,6 +549,7 @@ nav {
   overflow: hidden;
   box-shadow: 1px 1px 8px aqua;
 }
+
 .back {
   position: absolute;
   top: 0;
@@ -553,6 +562,7 @@ nav {
   -ms-transform: rotateY(180deg);
   -o-transform: rotateY(180deg);
 }
+
 .front > h2 {
   font-weight: 190;
   letter-spacing: 10px;
@@ -560,27 +570,31 @@ nav {
   margin-left: 6%;
   margin-top: 4%;
 }
-.back h2{
+
+.back h2 {
   font-weight: 190;
   letter-spacing: 10px;
   font-size: 35px;
   margin-left: 6%;
   margin-top: 6%;
 }
-.back p{
+
+.back p {
   font-weight: 150;
   position: absolute;
   top: 20%;
   width: 70%;
 }
-.front img{
+
+.front img {
   position: absolute;
   left: 16%;
   top: 17%;
   width: 70%;
   height: 70%;
 }
-.front h4{
+
+.front h4 {
   position: absolute;
   bottom: 10;
   color: #00fe77;
@@ -588,6 +602,12 @@ nav {
   font-size: 20px;
   cursor: pointer;
 }
+
+.card_edu:hover,
+.card_edu.active {
+  transform: rotateY(180deg);
+}
+
 
 
 /*--------------------------Contact US------------------*/
@@ -715,9 +735,6 @@ footer p{
 .logos a{
   color: white;
   margin: 1%;
-}
-.logoes{
-  margin-bottom: 2%;
 }
 .contact{
   margin-top: 2%;
