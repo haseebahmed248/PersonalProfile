@@ -233,9 +233,9 @@ nav {
     content: '';
     position: absolute;
     height: 25vmin;
-    width: 45vmin;
+    width: 50vmin;
     background: #000;
-    transform: translate(-45vmin, -24.5vmin);
+    transform: translate(-43vmin, -24.5vmin);
   }
   
   .closure::before {
@@ -539,7 +539,7 @@ transition: transform 0.4s ease-in-out;
   border-radius: 10px;
   text-align: center;
   justify-content: center;
-  backface-visibility: hidden; /* Hide the back face of the card */
+  backface-visibility: hidden; 
 }
 
 .front {
