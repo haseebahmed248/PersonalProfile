@@ -2,7 +2,7 @@
 
 A template for creating a personal portfolio website.
 
-# ❗❗❗ Note: Edge Not Supported 
+## ❗❗❗ Note: Edge Not Supported 
 
 ## Live Demo
 
