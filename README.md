@@ -2,6 +2,8 @@
 
 A template for creating a personal portfolio website.
 
+# ❗❗❗ Note: Edge Not Supported 
+
 ## Live Demo
 
 Visit the [live demo](https://haseebahmed248.github.io/PersonalProfile/PrimaryVariation/) to see the template in action.
