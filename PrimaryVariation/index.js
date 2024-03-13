@@ -1,3 +1,10 @@
+window.onload = function () {
+  if (navigator.userAgent.indexOf('Edge') > -1) {
+      alert("This website is not supported on Microsoft Edge.");
+      window.location.href = "unsupported.html";
+  }
+};
+
 
 var textWrapper = document.querySelector('.ml11 .letters');
 textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>");
